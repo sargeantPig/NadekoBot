@@ -16,6 +16,7 @@ using NadekoBot.Modules.Help;
 #if !NADEKO_RELEASE
 using NadekoBot.Modules.Music;
 #endif
+using NadekoBot.Modules.CleverBot;
 using NadekoBot.Modules.NSFW;
 using NadekoBot.Modules.Permissions;
 using NadekoBot.Modules.Permissions.Classes;
@@ -49,6 +50,8 @@ namespace NadekoBot
         private static void Main()
         {
             Console.OutputEncoding = Encoding.Unicode;
+
+            
 
             try
             {
@@ -161,11 +164,12 @@ namespace NadekoBot
             }));
 
             //install modules
+            modules.Add(new CleverBotModule(), "CleverBot", ModuleFilter.None);
             modules.Add(new HelpModule(), "Help", ModuleFilter.None);
             modules.Add(new AdministrationModule(), "Administration", ModuleFilter.None);
             modules.Add(new UtilityModule(), "Utility", ModuleFilter.None);
             modules.Add(new PermissionModule(), "Permissions", ModuleFilter.None);
-            modules.Add(new Conversations(), "Conversations", ModuleFilter.None);
+            //modules.Add(new Conversations(), "Conversations", ModuleFilter.None);
             modules.Add(new GamblingModule(), "Gambling", ModuleFilter.None);
             modules.Add(new GamesModule(), "Games", ModuleFilter.None);
 #if !NADEKO_RELEASE
@@ -176,7 +180,7 @@ namespace NadekoBot
             modules.Add(new ClashOfClansModule(), "ClashOfClans", ModuleFilter.None);
             modules.Add(new PokemonModule(), "Pokegame", ModuleFilter.None);
             modules.Add(new TranslatorModule(), "Translator", ModuleFilter.None);
-            modules.Add(new CustomReactionsModule(), "Customreactions", ModuleFilter.None);
+            //modules.Add(new CustomReactionsModule(), "Customreactions", ModuleFilter.None);
             if (!string.IsNullOrWhiteSpace(Creds.TrelloAppKey))
                 modules.Add(new TrelloModule(), "Trello", ModuleFilter.None);
 

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord.Net.Modules", "disc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord.Net.Commands", "discord.net\src\Discord.Net.Commands.Net45\Discord.Net.Commands.csproj", "{1B5603B4-6F8F-4289-B945-7BAAE523D740}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatterBotAPI", "..\chatter-bot-api-master\dotnet\ChatterBotAPI\ChatterBotAPI.csproj", "{2E624962-F155-432C-A90A-E1CE75DEE9EA}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		discord.net\src\Discord.Net.Shared\Discord.Net.Shared.projitems*{1b5603b4-6f8f-4289-b945-7baae523d740}*SharedItemsImports = 4
@@ -111,6 +113,22 @@ Global
 		{1B5603B4-6F8F-4289-B945-7BAAE523D740}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1B5603B4-6F8F-4289-B945-7BAAE523D740}.Release|x64.ActiveCfg = Release|Any CPU
 		{1B5603B4-6F8F-4289-B945-7BAAE523D740}.Release|x64.Build.0 = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Debug|x64.Build.0 = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.FullDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.FullDebug|Any CPU.Build.0 = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.FullDebug|x64.ActiveCfg = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.FullDebug|x64.Build.0 = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.NadekoRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.NadekoRelease|Any CPU.Build.0 = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.NadekoRelease|x64.ActiveCfg = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.NadekoRelease|x64.Build.0 = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Release|x64.ActiveCfg = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
